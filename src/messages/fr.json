@@ -4,6 +4,7 @@
     "description": "Chaque mois, une enveloppe d'art brésilien à votre porte. Formules mensuelle ou annuelle, livraison mondiale."
   },
   "nav": {
+    "home": "Accueil",
     "howItWorks": "Comment ça marche",
     "whatsInside": "Contenu",
     "gallery": "Galerie",
@@ -12,6 +13,8 @@
     "subscribe": "S'abonner"
   },
   "hero": {
+    "displayLine1": "Pinta-me",
+    "displayLine2": "chaque mois",
     "badge": "Club de lettres · Brésil + monde",
     "title": "L'art brésilien à votre porte, chaque mois",
     "subtitle": "Une enveloppe surprise avec une œuvre exclusive, un guide créatif et des extras d'artistes brésiliens.",

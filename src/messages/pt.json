@@ -4,6 +4,7 @@
     "description": "Todo mês, um envelope de arte brasileira na sua porta. Assinatura mensal ou anual, enviamos para o Brasil e o mundo."
   },
   "nav": {
+    "home": "Início",
     "howItWorks": "Como funciona",
     "whatsInside": "O que recebe",
     "gallery": "Galeria",
@@ -12,6 +13,8 @@
     "subscribe": "Assinar"
   },
   "hero": {
+    "displayLine1": "Pinta-me",
+    "displayLine2": "todo mês",
     "badge": "Clube de cartas · Brasil + mundo",
     "title": "Arte brasileira na sua porta, todo mês",
     "subtitle": "Um envelope surpresa com obra impressa exclusiva, guia criativo e extras de artistas brasileiros. Para colecionar, presentear e se inspirar.",

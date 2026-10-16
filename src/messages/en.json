@@ -4,6 +4,7 @@
     "description": "Every month, a Brazilian art envelope at your door. Monthly or yearly plans, shipping worldwide."
   },
   "nav": {
+    "home": "Home",
     "howItWorks": "How it works",
     "whatsInside": "What you get",
     "gallery": "Gallery",
@@ -12,6 +13,8 @@
     "subscribe": "Subscribe"
   },
   "hero": {
+    "displayLine1": "Pinta-me",
+    "displayLine2": "every month",
     "badge": "Letter club · Brazil + worldwide",
     "title": "Brazilian art at your door, every month",
     "subtitle": "A surprise envelope with an exclusive art print, a creative guide and extras from Brazilian artists.",

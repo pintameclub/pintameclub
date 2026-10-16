@@ -4,6 +4,7 @@
     "description": "Cada mes, un sobre de arte brasileña en tu puerta. Suscripción mensual o anual, con envíos a todo el mundo."
   },
   "nav": {
+    "home": "Inicio",
     "howItWorks": "Cómo funciona",
     "whatsInside": "Lo que recibes",
     "gallery": "Galería",
@@ -12,6 +13,8 @@
     "subscribe": "Suscribirse"
   },
   "hero": {
+    "displayLine1": "Pinta-me",
+    "displayLine2": "cada mes",
     "badge": "Club de cartas · Brasil + mundo",
     "title": "Arte brasileña en tu puerta, cada mes",
     "subtitle": "Un sobre sorpresa con obra impresa exclusiva, guía creativa y extras de artistas brasileños.",

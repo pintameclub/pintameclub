@@ -3,9 +3,8 @@ import { Inter, Inter_Tight } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import "../globals.css";
-import { getMessages, isLocale, locales, t, type Dict } from "@/i18n";
-import SiteHeader from "@/components/SiteHeader";
-import SiteFooter from "@/components/SiteFooter";
+import { getMessages, isLocale, locales, t, type Dict, type Locale } from "@/i18n";
+import Chrome from "@/components/Chrome";
 import ConsentBanner from "@/components/ConsentBanner";
 
 const inter = Inter({
@@ -50,9 +49,9 @@ export default async function LocaleLayout({
     <html lang={locale} className={`${inter.variable} ${interTight.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col bg-white text-zinc-900">
         <NextIntlClientProvider locale={locale} messages={messages as Record<string, unknown>}>
-          <SiteHeader locale={locale} messages={messages} />
-          <div className="flex flex-1 flex-col">{children}</div>
-          <SiteFooter locale={locale} messages={messages} />
+          <Chrome locale={locale as Locale} messages={messages}>
+            {children}
+          </Chrome>
           <ConsentBanner
             locale={locale}
             text={t(messages, "consent.bannerText", "")}

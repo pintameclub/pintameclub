@@ -43,6 +43,76 @@ details > summary::-webkit-details-marker {
   display: none;
 }
 
+/* ---- pinta-me / dark dramatic hero ---- */
+
+.hero-gradient {
+  background: linear-gradient(
+    180deg,
+    #0a0a0c 0%,
+    #140806 30%,
+    #3d0f02 55%,
+    #b12500 78%,
+    #ff4000 100%
+  );
+}
+
+.red-band-vivid {
+  background: linear-gradient(
+    180deg,
+    #1a0b06 0%,
+    #4a1200 28%,
+    #a82400 58%,
+    #f04400 100%
+  );
+}
+
+.display-giant {
+  font-size: clamp(72px, 13vw, 180px);
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  font-weight: 700;
+}
+
+.hero-line {
+  opacity: 0;
+  transform: translateY(34px);
+  animation: hero-rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.hero-line-2 {
+  animation-delay: 0.12s;
+}
+
+@keyframes hero-rise {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.pill-nav {
+  background: rgba(0, 0, 0, 0.67);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+  scrollbar-width: none;
+}
+
+.pill-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.hero-visual {
+  box-shadow: 0 32px 120px rgba(0, 0, 0, 0.55);
+  will-change: transform;
+}
+
+.hero-grain {
+  opacity: 0.07;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+}
+
 /* ---- pinta-me / portfolioone tokens ---- */
 
 .display-hero {
@@ -167,6 +237,12 @@ details[open] .faq-plus {
     opacity: 1;
     transform: none;
     transition: none;
+  }
+
+  .hero-line {
+    opacity: 1;
+    transform: none;
+    animation: none;
   }
 
   .zoom-inner,
