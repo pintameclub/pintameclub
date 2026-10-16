@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "title": "Pinta-me — Club d'art par abonnement",
+    "description": "Chaque mois, une enveloppe d'art brésilien à votre porte. Formules mensuelle ou annuelle, livraison mondiale."
+  },
+  "nav": {
+    "howItWorks": "Comment ça marche",
+    "whatsInside": "Contenu",
+    "gallery": "Galerie",
+    "faq": "Questions",
+    "signIn": "Se connecter",
+    "subscribe": "S'abonner"
+  },
+  "hero": {
+    "badge": "Club d'art par abonnement",
+    "title": "L'art brésilien à votre porte, chaque mois",
+    "subtitle": "Une enveloppe surprise avec une œuvre exclusive, un guide créatif et des extras d'artistes brésiliens.",
+    "ctaMonthly": "Formule mensuelle",
+    "ctaYearly": "Formule annuelle",
+    "priceMonthly": "R$59,90/mês",
+    "priceYearly": "R$640/ano",
+    "note": "Résiliable à tout moment • Livraison dans le monde entier"
+  },
+  "stats": [
+    { "value": "12 mil+", "label": "enveloppes envoyées" },
+    { "value": "40+", "label": "artistes partenaires" },
+    { "value": "15", "label": "pays desservis" },
+    { "value": "4.9", "label": "note moyenne" }
+  ],
+  "steps": {
+    "title": "Comment ça marche",
+    "subtitle": "Du clic à la boîte aux lettres en 4 étapes.",
+    "items": [
+      { "n": "01", "title": "Choisissez votre formule", "text": "Mensuelle R$59,90 ou annuelle R$640. Payez via Mercado Pago ou PayPal." },
+      { "n": "02", "title": "Recevez l'enveloppe", "text": "Chaque mois, une enveloppe surprise à votre adresse." },
+      { "n": "03", "title": "Créez avec le guide", "text": "Chaque enveloppe contient un guide créatif pour peindre et essayer." },
+      { "n": "04", "title": "Collectionnez et partagez", "text": "Gardez les œuvres et taguez @pintame.club sur Instagram." }
+    ]
+  },
+  "inside": {
+    "title": "Contenu de l'enveloppe",
+    "subtitle": "Chaque mois, 4 pièces choisies avec soin.",
+    "items": [
+      { "title": "Œuvre exclusive", "text": "Une création inédite d'un artiste brésilien, sur papier premium." },
+      { "title": "Guide créatif", "text": "Pas à pas pour créer votre propre version." },
+      { "title": "Stickers et extras", "text": "Autocollants et surprises qui changent chaque mois." },
+      { "title": "Carte de l'artiste", "text": "Découvrez l'artiste du mois." }
+    ]
+  },
+  "gallery": {
+    "title": "Galerie",
+    "subtitle": "Un aperçu des éditions passées.",
+    "note": "Vraies photos bientôt. Suivez @pintame.club pour les nouveautés."
+  },
+  "about": {
+    "title": "À propos de Pinta-me",
+    "body": "Pinta-me est un club qui apporte l'art brésilien dans les boîtes aux lettres du monde entier. Chaque mois, un artiste crée une œuvre exclusive transformée en enveloppe pleine de couleurs."
+  },
+  "testimonials": {
+    "title": "Ils racontent",
+    "items": [
+      { "quote": "Le jour de l'enveloppe est devenu mon jour préféré du mois.", "name": "Mariana, São Paulo" },
+      { "quote": "Abonnée pour ma fille, je collectionne avec elle.", "name": "Rafael, Lisbonne" },
+      { "quote": "Belle qualité, et le guide invite à ralentir.", "name": "Camille, Lyon" }
+    ]
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      { "q": "Comment marche le paiement ?", "a": "Prélèvement récurrent via Mercado Pago ou PayPal. Vous ne saisissez jamais votre carte sur notre site." },
+      { "q": "Livrez-vous hors du Brésil ?", "a": "Oui, dans le monde entier. Les délais varient selon la destination." },
+      { "q": "Puis-je résilier ?", "a": "Oui, à tout moment. La formule mensuelle est sans engagement." },
+      { "q": "Puis-je l'offrir ?", "a": "Oui, indiquez simplement l'adresse de l'autre personne." },
+      { "q": "Quand arrive la première enveloppe ?", "a": "Les commandes confirmées avant le 15 partent le mois en cours." }
+    ]
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "text": "Questions et partenariats : Instagram ou e-mail.",
+    "instagram": "https://instagram.com/pintame.club",
+    "instagramLabel": "@pintame.club sur Instagram",
+    "email": "pintame.club@gmail.com"
+  },
+  "subscribe": {
+    "title": "Choisissez votre formule",
+    "subtitle": "Sans frais cachés. Résiliable à tout moment.",
+    "monthlyName": "Mensuelle",
+    "monthlyPrice": "R$59,90/mês",
+    "monthlyFeatures": ["1 enveloppe par mois", "Livraison incluse au Brésil", "Résiliable à tout moment", "Accès communauté"],
+    "yearlyName": "Annuelle",
+    "yearlyPrice": "R$640/ano",
+    "yearlyBadge": "2 mois offerts",
+    "yearlyFeatures": ["12 enveloppes par an", "Envoi prioritaire", "Cadeau de bienvenue", "Accès communauté"],
+    "payWith": "Payer avec",
+    "mercadopago": "Mercado Pago",
+    "paypal": "PayPal",
+    "secureNote": "Paiement 100 % sécurisé chez le prestataire. Nous ne touchons jamais votre carte.",
+    "cta": "Continuer"
+  },
+  "account": {
+    "title": "Votre compte",
+    "loginTitle": "Se connecter",
+    "loginNote": "La connexion complète arrive bientôt. Laissez vos coordonnées de livraison.",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "loginButton": "Connexion (bientôt)",
+    "addressTitle": "Adresse de livraison",
+    "fullName": "Nom complet",
+    "phone": "Téléphone / WhatsApp",
+    "country": "Pays",
+    "postalCode": "Code postal",
+    "street": "Rue",
+    "number": "Numéro",
+    "complement": "Complément",
+    "city": "Ville",
+    "state": "État / Région",
+    "save": "Enregistrer",
+    "savedNote": "Démo : données non enregistrées."
+  },
+  "admin": {
+    "title": "Administration",
+    "guarded": "Zone réservée. Le contrôle par rôle arrive avec l'authentification.",
+    "sectionsTitle": "Textes et images",
+    "sectionsNote": "Modifiez textes et images, logo inclus. Démo.",
+    "edit": "Modifier",
+    "membersTitle": "Membres",
+    "membersNote": "Liste des membres (démo).",
+    "shipmentsTitle": "Envois",
+    "export": "Exporter CSV (bientôt)",
+    "tableSection": "Section",
+    "tableTitle": "Titre",
+    "tableUpdated": "Mis à jour",
+    "tableActions": "Actions",
+    "tableName": "Nom",
+    "tableEmail": "E-mail",
+    "tablePlan": "Formule",
+    "tableStatus": "Statut"
+  },
+  "policies": {
+    "privacy": "Politique de confidentialité",
+    "cookies": "Cookies",
+    "terms": "Conditions d'abonnement"
+  },
+  "consent": {
+    "terms": "J'ai lu et j'accepte les conditions",
+    "privacy": "J'ai lu et j'accepte la politique de confidentialité",
+    "cookies": "J'accepte les cookies",
+    "marketing": "Recevoir les nouveautés (optionnel)",
+    "required": "obligatoire",
+    "bannerText": "Nous utilisons des cookies pour le site et mesurer les visites.",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "learnMore": "En savoir plus"
+  },
+  "footer": {
+    "tagline": "L'art brésilien à votre porte, chaque mois.",
+    "rights": "Tous droits réservés.",
+    "madeWith": "Fait avec couleur au Brésil."
+  }
+}

@@ -1,0 +1,92 @@
+// Prisma schema for Pinta-me mail club.
+// Postgres datasource. Run: npx prisma generate (and `npx prisma migrate dev` once DATABASE_URL is set).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  admin
+  member
+}
+
+enum Plan {
+  monthly
+  yearly
+}
+
+enum Provider {
+  mercadopago
+  paypal
+}
+
+enum SubscriptionStatus {
+  active
+  past_due
+  canceled
+  trialing
+  incomplete
+}
+
+model User {
+  id           String       @id @default(cuid())
+  email        String       @unique
+  name         String?
+  passwordHash String
+  role         Role         @default(member)
+  locale       String       @default("pt")
+  createdAt    DateTime     @default(now())
+  member       Member?
+  addresses    Address[]
+  subscription Subscription?
+}
+
+model Member {
+  id             String   @id @default(cuid())
+  userId         String   @unique
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  phone          String?
+  marketingOptIn Boolean  @default(false)
+  createdAt      DateTime @default(now())
+}
+
+model Address {
+  id         String   @id @default(cuid())
+  userId     String
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  fullName   String
+  country    String
+  postalCode String
+  street     String
+  number     String
+  complement String?
+  city       String
+  state      String
+  createdAt  DateTime @default(now())
+}
+
+model Subscription {
+  id               String             @id @default(cuid())
+  userId           String             @unique
+  user             User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  plan             Plan
+  provider         Provider
+  status           SubscriptionStatus @default(incomplete)
+  providerId       String?
+  currentPeriodEnd DateTime?
+  createdAt        DateTime           @default(now())
+}
+
+model ContentSection {
+  id        String   @id @default(cuid())
+  key       String   @unique
+  title     String?
+  body      String?
+  imageUrl  String?
+  updatedAt DateTime @updatedAt
+}

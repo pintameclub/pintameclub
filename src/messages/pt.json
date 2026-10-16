@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "title": "Pinta-me — Clube de arte por assinatura",
+    "description": "Todo mês, um envelope de arte brasileira na sua porta. Assinatura mensal ou anual, enviamos para o Brasil e o mundo."
+  },
+  "nav": {
+    "howItWorks": "Como funciona",
+    "whatsInside": "O que vem",
+    "gallery": "Galeria",
+    "faq": "Dúvidas",
+    "signIn": "Entrar",
+    "subscribe": "Assinar"
+  },
+  "hero": {
+    "badge": "Clube de arte por assinatura",
+    "title": "Arte brasileira na sua porta, todo mês",
+    "subtitle": "Um envelope surpresa com obra impressa exclusiva, guia criativo e extras de artistas brasileiros. Para colecionar, presentear e se inspirar.",
+    "ctaMonthly": "Assinar mensal",
+    "ctaYearly": "Assinar anual",
+    "priceMonthly": "R$59,90/mês",
+    "priceYearly": "R$640/ano",
+    "note": "Cancele quando quiser • Enviamos para o Brasil e o mundo"
+  },
+  "stats": [
+    { "value": "12 mil+", "label": "envelopes enviados" },
+    { "value": "40+", "label": "artistas parceiros" },
+    { "value": "15", "label": "países alcançados" },
+    { "value": "4.9", "label": "nota média dos membros" }
+  ],
+  "steps": {
+    "title": "Como funciona",
+    "subtitle": "Do clique à sua caixa de correio em 4 passos.",
+    "items": [
+      { "n": "01", "title": "Escolha seu plano", "text": "Mensal por R$59,90 ou anual por R$640. Pague com Mercado Pago ou PayPal." },
+      { "n": "02", "title": "Receba o envelope", "text": "Todo mês enviamos um envelope surpresa para o seu endereço, no Brasil ou no exterior." },
+      { "n": "03", "title": "Crie com o guia", "text": "Cada envelope traz um guia criativo para você pintar, colar e experimentar." },
+      { "n": "04", "title": "Colecione e compartilhe", "text": "Guarde as obras, presenteie quem você ama e marque @pintame.club no Instagram." }
+    ]
+  },
+  "inside": {
+    "title": "O que vem no envelope",
+    "subtitle": "Todo mês, 4 itens selecionados com carinho.",
+    "items": [
+      { "title": "Obra impressa exclusiva", "text": "Uma arte inédita de um artista brasileiro, em papel de alta qualidade." },
+      { "title": "Guia criativo", "text": "Passo a passo e provocações para você criar a sua própria versão." },
+      { "title": "Adesivos e extras", "text": "Stickers, marcadores e surpresinhas que mudam a cada edição." },
+      { "title": "Cartão do artista", "text": "Conheça quem criou a obra do mês e onde acompanhar o trabalho." }
+    ]
+  },
+  "gallery": {
+    "title": "Galeria",
+    "subtitle": "Um gostinho das edições passadas.",
+    "note": "Fotos reais das edições em breve. Siga @pintame.club para ver novidades."
+  },
+  "about": {
+    "title": "Sobre o Pinta-me",
+    "body": "O Pinta-me é um clube de assinatura que leva a arte brasileira para caixas de correio no Brasil e no mundo. A cada mês, um artista diferente cria uma obra exclusiva que vira um envelope cheio de cor, papel e afeto. Acreditamos que arte não é só para museu — é para a mesa da cozinha, a parede do quarto e o caderno de todo dia."
+  },
+  "testimonials": {
+    "title": "Quem recebe, conta",
+    "items": [
+      { "quote": "O dia que o envelope chega virou meu dia favorito do mês.", "name": "Mariana, São Paulo" },
+      { "quote": "Assinei para minha filha e acabei colecionando junto.", "name": "Rafael, Lisboa" },
+      { "quote": "Qualidade linda e o guia criativo é um convite a desacelerar.", "name": "Camille, Lyon" }
+    ]
+  },
+  "faq": {
+    "title": "Dúvidas frequentes",
+    "items": [
+      { "q": "Como funciona o pagamento?", "a": "A cobrança é recorrente via Mercado Pago ou PayPal, no cartão ou saldo da conta. Você nunca digita dados do cartão no nosso site — todo o pagamento acontece no ambiente seguro do provedor." },
+      { "q": "Vocês enviam para fora do Brasil?", "a": "Sim! Enviamos para o Brasil e para o mundo todo. O prazo varia conforme o destino e o plano anual tem prioridade na fila de envio." },
+      { "q": "Posso cancelar quando quiser?", "a": "Pode. A assinatura mensal pode ser cancelada a qualquer momento e você recebe até o fim do período pago. A anual pode ser cancelada com reembolso proporcional — veja os Termos." },
+      { "q": "Posso dar de presente?", "a": "Sim! Na página de conta você cadastra o endereço de entrega — pode ser o de outra pessoa. É só avisar no campo de complemento que é presente." },
+      { "q": "Quando recebo o primeiro envelope?", "a": "Assinaturas confirmadas até o dia 15 entram no envio do mês corrente; depois disso, no mês seguinte. Você recebe o rastreio por e-mail." }
+    ]
+  },
+  "contact": {
+    "title": "Fale com a gente",
+    "text": "Dúvidas, parcerias e artistas: chama no Instagram ou no e-mail.",
+    "instagram": "https://instagram.com/pintame.club",
+    "instagramLabel": "@pintame.club no Instagram",
+    "email": "pintame.club@gmail.com"
+  },
+  "subscribe": {
+    "title": "Escolha seu plano",
+    "subtitle": "Sem taxa escondida. Cancele quando quiser.",
+    "monthlyName": "Mensal",
+    "monthlyPrice": "R$59,90/mês",
+    "monthlyFeatures": ["1 envelope por mês", "Frete incluso no Brasil", "Cancele quando quiser", "Acesso à comunidade"],
+    "yearlyName": "Anual",
+    "yearlyPrice": "R$640/ano",
+    "yearlyBadge": "2 meses de desconto",
+    "yearlyFeatures": ["12 envelopes no ano", "Prioridade no envio", "Brinde de boas-vindas", "Acesso à comunidade"],
+    "payWith": "Pagar com",
+    "mercadopago": "Mercado Pago",
+    "paypal": "PayPal",
+    "secureNote": "Pagamento 100% seguro no ambiente do provedor. Não tocamos nos dados do seu cartão.",
+    "cta": "Continuar"
+  },
+  "account": {
+    "title": "Sua conta",
+    "loginTitle": "Entrar",
+    "loginNote": "O login completo com e-mail e senha chega em breve. Por enquanto, deixe seus dados de entrega.",
+    "email": "E-mail",
+    "password": "Senha",
+    "loginButton": "Entrar (em breve)",
+    "addressTitle": "Endereço de entrega",
+    "fullName": "Nome completo",
+    "phone": "Telefone / WhatsApp",
+    "country": "País",
+    "postalCode": "CEP / Código postal",
+    "street": "Rua / Avenida",
+    "number": "Número",
+    "complement": "Complemento (apto, bloco, referência)",
+    "city": "Cidade",
+    "state": "Estado / Região",
+    "save": "Salvar dados",
+    "savedNote": "Demonstração: os dados ainda não são salvos. A conta completa chega em breve."
+  },
+  "admin": {
+    "title": "Administração",
+    "guarded": "Área restrita. O controle de acesso por papel (admin) será ligado junto com a autenticação.",
+    "sectionsTitle": "Textos e imagens do site",
+    "sectionsNote": "Edite os textos e imagens de cada seção, incluindo o logo. Demonstração — edição real em breve.",
+    "edit": "Editar",
+    "membersTitle": "Membros",
+    "membersNote": "Lista de membros e assinaturas (demonstração).",
+    "shipmentsTitle": "Envios",
+    "export": "Exportar CSV (em breve)",
+    "tableSection": "Seção",
+    "tableTitle": "Título",
+    "tableUpdated": "Atualizado em",
+    "tableActions": "Ações",
+    "tableName": "Nome",
+    "tableEmail": "E-mail",
+    "tablePlan": "Plano",
+    "tableStatus": "Status"
+  },
+  "policies": {
+    "privacy": "Política de Privacidade",
+    "cookies": "Cookies",
+    "terms": "Termos de Assinatura"
+  },
+  "consent": {
+    "terms": "Li e aceito os Termos de Assinatura",
+    "privacy": "Li e aceito a Política de Privacidade",
+    "cookies": "Aceito o uso de cookies conforme a Política de Cookies",
+    "marketing": "Quero receber novidades e lançamentos por e-mail (opcional)",
+    "required": "obrigatório",
+    "bannerText": "Usamos cookies para o site funcionar bem e entender visitas. Você pode aceitar ou recusar.",
+    "accept": "Aceitar",
+    "decline": "Recusar",
+    "learnMore": "Saiba mais"
+  },
+  "footer": {
+    "tagline": "Arte brasileira na sua porta, todo mês.",
+    "rights": "Todos os direitos reservados.",
+    "madeWith": "Feito com cor no Brasil."
+  }
+}

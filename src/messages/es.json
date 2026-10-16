@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "title": "Pinta-me — Club de arte por suscripción",
+    "description": "Cada mes, un sobre de arte brasileña en tu puerta. Suscripción mensual o anual, con envíos a todo el mundo."
+  },
+  "nav": {
+    "howItWorks": "Cómo funciona",
+    "whatsInside": "Qué incluye",
+    "gallery": "Galería",
+    "faq": "Preguntas",
+    "signIn": "Entrar",
+    "subscribe": "Suscribirse"
+  },
+  "hero": {
+    "badge": "Club de arte por suscripción",
+    "title": "Arte brasileña en tu puerta, cada mes",
+    "subtitle": "Un sobre sorpresa con obra impresa exclusiva, guía creativa y extras de artistas brasileños.",
+    "ctaMonthly": "Plan mensual",
+    "ctaYearly": "Plan anual",
+    "priceMonthly": "R$59,90/mês",
+    "priceYearly": "R$640/ano",
+    "note": "Cancela cuando quieras • Enviamos a todo el mundo"
+  },
+  "stats": [
+    { "value": "12 mil+", "label": "sobres enviados" },
+    { "value": "40+", "label": "artistas aliados" },
+    { "value": "15", "label": "países alcanzados" },
+    { "value": "4.9", "label": "nota media" }
+  ],
+  "steps": {
+    "title": "Cómo funciona",
+    "subtitle": "Del clic a tu buzón en 4 pasos.",
+    "items": [
+      { "n": "01", "title": "Elige tu plan", "text": "Mensual R$59,90 o anual R$640. Paga con Mercado Pago o PayPal." },
+      { "n": "02", "title": "Recibe el sobre", "text": "Cada mes enviamos un sobre sorpresa a tu dirección." },
+      { "n": "03", "title": "Crea con la guía", "text": "Cada sobre trae una guía creativa para pintar y experimentar." },
+      { "n": "04", "title": "Colecciona y comparte", "text": "Guarda las obras y etiquétanos @pintame.club en Instagram." }
+    ]
+  },
+  "inside": {
+    "title": "Qué trae el sobre",
+    "subtitle": "Cada mes, 4 piezas elegidas con cariño.",
+    "items": [
+      { "title": "Obra impresa exclusiva", "text": "Un arte inédito de un artista brasileño, en papel de alta calidad." },
+      { "title": "Guía creativa", "text": "Paso a paso para crear tu propia versión." },
+      { "title": "Stickers y extras", "text": "Pegatinas y sorpresas que cambian cada mes." },
+      { "title": "Tarjeta del artista", "text": "Conoce a quien creó la obra del mes." }
+    ]
+  },
+  "gallery": {
+    "title": "Galería",
+    "subtitle": "Una muestra de ediciones pasadas.",
+    "note": "Fotos reales muy pronto. Sigue @pintame.club para novedades."
+  },
+  "about": {
+    "title": "Sobre Pinta-me",
+    "body": "Pinta-me es un club que lleva el arte brasileño a buzones de todo el mundo. Cada mes, un artista crea una obra exclusiva que se convierte en un sobre lleno de color y cariño."
+  },
+  "testimonials": {
+    "title": "Quienes reciben, cuentan",
+    "items": [
+      { "quote": "El día que llega el sobre es mi favorito del mes.", "name": "Mariana, São Paulo" },
+      { "quote": "Lo pedí para mi hija y terminé coleccionando yo también.", "name": "Rafael, Lisboa" },
+      { "quote": "Calidad hermosa y la guía invita a desacelerar.", "name": "Camille, Lyon" }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      { "q": "¿Cómo es el pago?", "a": "Cobro recurrente vía Mercado Pago o PayPal. Nunca escribes tu tarjeta en nuestro sitio." },
+      { "q": "¿Envían fuera de Brasil?", "a": "Sí, enviamos a todo el mundo. Los plazos varían según el destino." },
+      { "q": "¿Puedo cancelar?", "a": "Sí, cuando quieras. El plan mensual se cancela en cualquier momento." },
+      { "q": "¿Puedo regalarlo?", "a": "Sí, registra la dirección de la otra persona como entrega." },
+      { "q": "¿Cuándo llega el primer sobre?", "a": "Pedidos confirmados hasta el día 15 entran en el envío del mes." }
+    ]
+  },
+  "contact": {
+    "title": "Hablemos",
+    "text": "Dudas y alianzas: Instagram o correo.",
+    "instagram": "https://instagram.com/pintame.club",
+    "instagramLabel": "@pintame.club en Instagram",
+    "email": "pintame.club@gmail.com"
+  },
+  "subscribe": {
+    "title": "Elige tu plan",
+    "subtitle": "Sin cargos ocultos. Cancela cuando quieras.",
+    "monthlyName": "Mensual",
+    "monthlyPrice": "R$59,90/mês",
+    "monthlyFeatures": ["1 sobre por mes", "Envío incluido en Brasil", "Cancela cuando quieras", "Acceso a la comunidad"],
+    "yearlyName": "Anual",
+    "yearlyPrice": "R$640/ano",
+    "yearlyBadge": "2 meses de descuento",
+    "yearlyFeatures": ["12 sobres al año", "Prioridad de envío", "Regalo de bienvenida", "Acceso a la comunidad"],
+    "payWith": "Pagar con",
+    "mercadopago": "Mercado Pago",
+    "paypal": "PayPal",
+    "secureNote": "Pago 100% seguro con el proveedor. No tocamos tu tarjeta.",
+    "cta": "Continuar"
+  },
+  "account": {
+    "title": "Tu cuenta",
+    "loginTitle": "Entrar",
+    "loginNote": "El acceso completo llegará pronto. Por ahora, deja tus datos de entrega.",
+    "email": "Correo",
+    "password": "Contraseña",
+    "loginButton": "Entrar (pronto)",
+    "addressTitle": "Dirección de entrega",
+    "fullName": "Nombre completo",
+    "phone": "Teléfono / WhatsApp",
+    "country": "País",
+    "postalCode": "Código postal",
+    "street": "Calle / Avenida",
+    "number": "Número",
+    "complement": "Complemento",
+    "city": "Ciudad",
+    "state": "Estado / Región",
+    "save": "Guardar datos",
+    "savedNote": "Demo: los datos aún no se guardan."
+  },
+  "admin": {
+    "title": "Administración",
+    "guarded": "Área restringida. El control por rol se activará con la autenticación.",
+    "sectionsTitle": "Textos e imágenes",
+    "sectionsNote": "Edita textos e imágenes, incluido el logo. Demo.",
+    "edit": "Editar",
+    "membersTitle": "Miembros",
+    "membersNote": "Lista de miembros (demo).",
+    "shipmentsTitle": "Envíos",
+    "export": "Exportar CSV (pronto)",
+    "tableSection": "Sección",
+    "tableTitle": "Título",
+    "tableUpdated": "Actualizado",
+    "tableActions": "Acciones",
+    "tableName": "Nombre",
+    "tableEmail": "Correo",
+    "tablePlan": "Plan",
+    "tableStatus": "Estado"
+  },
+  "policies": {
+    "privacy": "Política de Privacidad",
+    "cookies": "Cookies",
+    "terms": "Términos de Suscripción"
+  },
+  "consent": {
+    "terms": "Leí y acepto los Términos",
+    "privacy": "Leí y acepto la Política de Privacidad",
+    "cookies": "Acepto las cookies",
+    "marketing": "Quiero recibir novedades (opcional)",
+    "required": "obligatorio",
+    "bannerText": "Usamos cookies para que el sitio funcione y medir visitas.",
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "learnMore": "Más info"
+  },
+  "footer": {
+    "tagline": "Arte brasileña en tu puerta, cada mes.",
+    "rights": "Todos los derechos reservados.",
+    "madeWith": "Hecho con color en Brasil."
+  }
+}

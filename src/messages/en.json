@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "title": "Pinta-me — Art subscription club",
+    "description": "Every month, a Brazilian art envelope at your door. Monthly or yearly plans, shipping worldwide."
+  },
+  "nav": {
+    "howItWorks": "How it works",
+    "whatsInside": "What's inside",
+    "gallery": "Gallery",
+    "faq": "FAQ",
+    "signIn": "Sign in",
+    "subscribe": "Subscribe"
+  },
+  "hero": {
+    "badge": "Art subscription club",
+    "title": "Brazilian art at your door, every month",
+    "subtitle": "A surprise envelope with an exclusive art print, a creative guide and extras from Brazilian artists.",
+    "ctaMonthly": "Monthly plan",
+    "ctaYearly": "Yearly plan",
+    "priceMonthly": "R$59,90/mês",
+    "priceYearly": "R$640/ano",
+    "note": "Cancel anytime • We ship worldwide"
+  },
+  "stats": [
+    { "value": "12k+", "label": "envelopes shipped" },
+    { "value": "40+", "label": "partner artists" },
+    { "value": "15", "label": "countries reached" },
+    { "value": "4.9", "label": "average rating" }
+  ],
+  "steps": {
+    "title": "How it works",
+    "subtitle": "From click to mailbox in 4 steps.",
+    "items": [
+      { "n": "01", "title": "Pick your plan", "text": "Monthly R$59.90 or yearly R$640. Pay with Mercado Pago or PayPal." },
+      { "n": "02", "title": "Get the envelope", "text": "Every month we mail a surprise envelope to your address." },
+      { "n": "03", "title": "Create with the guide", "text": "Each envelope brings a creative guide to paint and try out." },
+      { "n": "04", "title": "Collect and share", "text": "Keep the prints and tag @pintame.club on Instagram." }
+    ]
+  },
+  "inside": {
+    "title": "What's in the envelope",
+    "subtitle": "Every month, 4 hand-picked items.",
+    "items": [
+      { "title": "Exclusive art print", "text": "Unreleased artwork by a Brazilian artist, on premium paper." },
+      { "title": "Creative guide", "text": "Step-by-step prompts to make your own version." },
+      { "title": "Stickers & extras", "text": "Stickers and little surprises that change monthly." },
+      { "title": "Artist card", "text": "Meet the artist behind the month's piece." }
+    ]
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "A taste of past editions.",
+    "note": "Real photos coming soon. Follow @pintame.club for updates."
+  },
+  "about": {
+    "title": "About Pinta-me",
+    "body": "Pinta-me is a subscription club bringing Brazilian art to mailboxes in Brazil and around the world. Each month a different artist creates an exclusive piece turned into an envelope full of color and care."
+  },
+  "testimonials": {
+    "title": "Members say",
+    "items": [
+      { "quote": "Envelope day became my favorite day of the month.", "name": "Mariana, São Paulo" },
+      { "quote": "I subscribed for my daughter and started collecting too.", "name": "Rafael, Lisbon" },
+      { "quote": "Beautiful quality, and the guide invites you to slow down.", "name": "Camille, Lyon" }
+    ]
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      { "q": "How does payment work?", "a": "Recurring billing via Mercado Pago or PayPal. You never type card details on our site." },
+      { "q": "Do you ship outside Brazil?", "a": "Yes, we ship worldwide. Timeframes vary by destination." },
+      { "q": "Can I cancel?", "a": "Yes, anytime. Monthly plans can be cancelled whenever you like." },
+      { "q": "Can I gift it?", "a": "Yes, just register the other person's address for delivery." },
+      { "q": "When does the first envelope arrive?", "a": "Orders confirmed by the 15th ship in the current month." }
+    ]
+  },
+  "contact": {
+    "title": "Talk to us",
+    "text": "Questions and partnerships: Instagram or email.",
+    "instagram": "https://instagram.com/pintame.club",
+    "instagramLabel": "@pintame.club on Instagram",
+    "email": "pintame.club@gmail.com"
+  },
+  "subscribe": {
+    "title": "Pick your plan",
+    "subtitle": "No hidden fees. Cancel anytime.",
+    "monthlyName": "Monthly",
+    "monthlyPrice": "R$59,90/mês",
+    "monthlyFeatures": ["1 envelope per month", "Free shipping in Brazil", "Cancel anytime", "Community access"],
+    "yearlyName": "Yearly",
+    "yearlyPrice": "R$640/ano",
+    "yearlyBadge": "2 months off",
+    "yearlyFeatures": ["12 envelopes a year", "Shipping priority", "Welcome gift", "Community access"],
+    "payWith": "Pay with",
+    "mercadopago": "Mercado Pago",
+    "paypal": "PayPal",
+    "secureNote": "100% secure payment with the provider. We never touch your card.",
+    "cta": "Continue"
+  },
+  "account": {
+    "title": "Your account",
+    "loginTitle": "Sign in",
+    "loginNote": "Full sign-in is coming soon. For now, leave your delivery details.",
+    "email": "Email",
+    "password": "Password",
+    "loginButton": "Sign in (soon)",
+    "addressTitle": "Delivery address",
+    "fullName": "Full name",
+    "phone": "Phone / WhatsApp",
+    "country": "Country",
+    "postalCode": "Postal code",
+    "street": "Street",
+    "number": "Number",
+    "complement": "Complement",
+    "city": "City",
+    "state": "State / Region",
+    "save": "Save details",
+    "savedNote": "Demo: details are not saved yet."
+  },
+  "admin": {
+    "title": "Admin",
+    "guarded": "Restricted area. Role-based access ships with authentication.",
+    "sectionsTitle": "Site copy & images",
+    "sectionsNote": "Edit copy and images, including the logo. Demo.",
+    "edit": "Edit",
+    "membersTitle": "Members",
+    "membersNote": "Member list (demo).",
+    "shipmentsTitle": "Shipments",
+    "export": "Export CSV (soon)",
+    "tableSection": "Section",
+    "tableTitle": "Title",
+    "tableUpdated": "Updated",
+    "tableActions": "Actions",
+    "tableName": "Name",
+    "tableEmail": "Email",
+    "tablePlan": "Plan",
+    "tableStatus": "Status"
+  },
+  "policies": {
+    "privacy": "Privacy Policy",
+    "cookies": "Cookies",
+    "terms": "Subscription Terms"
+  },
+  "consent": {
+    "terms": "I read and accept the Terms",
+    "privacy": "I read and accept the Privacy Policy",
+    "cookies": "I accept cookies",
+    "marketing": "Send me news and launches (optional)",
+    "required": "required",
+    "bannerText": "We use cookies to run the site and measure visits.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "learnMore": "Learn more"
+  },
+  "footer": {
+    "tagline": "Brazilian art at your door, every month.",
+    "rights": "All rights reserved.",
+    "madeWith": "Made with color in Brazil."
+  }
+}

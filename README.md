@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pinta-me — mail club
 
-## Getting Started
+Subscription club delivering Brazilian art envelopes monthly. Next.js 16 +
+TypeScript + Tailwind + App Router (`src/` dir), 4 locales (PT default, ES, EN,
+FR) via `next-intl`, Postgres via Prisma, payments via Mercado Pago + PayPal,
+transactional email via Resend.
 
-First, run the development server:
+## Local dev
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+cp .env.example .env.local   # fill in values, never commit secrets
+npx prisma generate
+npx prisma migrate dev       # once DATABASE_URL points to a real Postgres
+npm run dev                  # http://localhost:3000 -> redirects to /pt
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Env setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+See `.env.example`. Required for full wiring: `DATABASE_URL`, `AUTH_SECRET`,
+`RESEND_API_KEY`, `MERCADOPAGO_ACCESS_TOKEN`, PayPal client id/secret.
+`.gitignore` already covers `.env*`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Payment wiring TODO (sandbox first)
 
-## Learn More
+- **Mercado Pago**: implement `createMercadoPagoCheckout()` in
+  `src/lib/payments.ts` with Checkout Pro / preapproval (recurring), set
+  `back_urls` + `notification_url`, reconcile via webhook. Verify `x-signature`
+  on every webhook event.
+- **PayPal**: implement `createPayPalSubscription()` (product + billing plan +
+  subscription, `PAYPAL_MODE=sandbox`), verify webhook signatures, reconcile
+  status server-side. Never trust client redirects alone.
+- **Never handle card data**: all card input happens on provider-hosted pages.
 
-To learn more about Next.js, take a look at the following resources:
+## Resend domain verification (pinta-me.com via Cloudflare DNS)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Add domain in Resend dashboard, copy SPF/DKIM (and MX if receiving).
+2. Add the TXT records in Cloudflare DNS for `pinta-me.com`, wait for
+   "Verified".
+3. Set `EMAIL_FROM=contato@pinta-me.com`. Use the Resend sandbox domain only
+   for local dev.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment (Vercel + Cloudflare DNS)
 
-## Deploy on Vercel
+1. Push to GitHub, import the repo in Vercel, set all env vars from
+   `.env.example` in project settings.
+2. In Cloudflare, point the apex/`www` to Vercel (A `76.76.21.21` or CNAME
+   `cname.vercel-dns.com` per Vercel's instructions), add the domain in Vercel.
+3. Run `npx prisma migrate deploy` against the production DB (Vercel build hook
+   or manually). Do not use `migrate dev` in production.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Safety notes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- PCI scope stays with the providers (Mercado Pago / PayPal hosted checkout).
+- Webhook signature verification is mandatory before acting on payment events.
+- Admin routes must check `User.role === "admin"` server-side (placeholder UI
+  only for now; see `src/app/[locale]/admin/page.tsx`).
+
+## LGPD warning
+
+`politica-de-privacidade`, `cookies` and `termos` are **starting drafts**.
+Review by a Brazilian lawyer is required before launch (controller identity,
+retention, refunds, art. 49 CDC right of regret).
