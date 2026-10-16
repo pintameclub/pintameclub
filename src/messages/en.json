@@ -5,41 +5,43 @@
   },
   "nav": {
     "howItWorks": "How it works",
-    "whatsInside": "What's inside",
+    "whatsInside": "What you get",
     "gallery": "Gallery",
     "faq": "FAQ",
     "signIn": "Sign in",
     "subscribe": "Subscribe"
   },
   "hero": {
-    "badge": "Art subscription club",
+    "badge": "Letter club · Brazil + worldwide",
     "title": "Brazilian art at your door, every month",
     "subtitle": "A surprise envelope with an exclusive art print, a creative guide and extras from Brazilian artists.",
-    "ctaMonthly": "Monthly plan",
+    "ctaMonthly": "Subscribe",
     "ctaYearly": "Yearly plan",
     "priceMonthly": "R$59,90/mês",
-    "priceYearly": "R$640/ano",
+    "priceYearly": "R$640",
     "note": "Cancel anytime • We ship worldwide"
   },
   "stats": [
-    { "value": "12k+", "label": "envelopes shipped" },
-    { "value": "40+", "label": "partner artists" },
-    { "value": "15", "label": "countries reached" },
-    { "value": "4.9", "label": "average rating" }
+    { "value": "12", "label": "letters a year" },
+    { "value": "4", "label": "languages" },
+    { "value": "1", "label": "envelope every month" },
+    { "value": "0", "label": "lock-in · cancel anytime" }
   ],
   "steps": {
     "title": "How it works",
     "subtitle": "From click to mailbox in 4 steps.",
     "items": [
-      { "n": "01", "title": "Pick your plan", "text": "Monthly R$59.90 or yearly R$640. Pay with Mercado Pago or PayPal." },
-      { "n": "02", "title": "Get the envelope", "text": "Every month we mail a surprise envelope to your address." },
-      { "n": "03", "title": "Create with the guide", "text": "Each envelope brings a creative guide to paint and try out." },
-      { "n": "04", "title": "Collect and share", "text": "Keep the prints and tag @pintame.club on Instagram." }
+      { "n": "01", "title": "Subscribe", "text": "Monthly (R$59.90) or yearly (R$640). Takes 2 minutes." },
+      { "n": "02", "title": "Create account + address", "text": "Add your email and delivery address, worldwide." },
+      { "n": "03", "title": "Secure payment", "text": "Pix, boleto or card via Mercado Pago, or PayPal abroad." },
+      { "n": "04", "title": "Get mail monthly", "text": "A surprise envelope every month, tracked by email." }
     ]
   },
   "inside": {
-    "title": "What's in the envelope",
-    "subtitle": "Every month, 4 hand-picked items.",
+    "label": "What you get",
+    "title": "Everything inside the envelope",
+    "subtitle": "Four hand-picked pieces, every month.",
+    "viewPlans": "See plans →",
     "items": [
       { "title": "Exclusive art print", "text": "Unreleased artwork by a Brazilian artist, on premium paper." },
       { "title": "Creative guide", "text": "Step-by-step prompts to make your own version." },
@@ -48,35 +50,59 @@
     ]
   },
   "gallery": {
+    "label": "Gallery",
     "title": "Gallery",
     "subtitle": "A taste of past editions.",
-    "note": "Real photos coming soon. Follow @pintame.club for updates."
+    "note": "Real photos coming soon. Follow @pintame.club for updates.",
+    "items": [
+      { "caption": "Print + creative guide" },
+      { "caption": "Paper detail and extras" },
+      { "caption": "Envelope ready to ship" }
+    ]
   },
   "about": {
+    "label": "Manifesto",
     "title": "About Pinta-me",
-    "body": "Pinta-me is a subscription club bringing Brazilian art to mailboxes in Brazil and around the world. Each month a different artist creates an exclusive piece turned into an envelope full of color and care."
+    "body": "Pinta-me is a subscription club bringing Brazilian art to mailboxes in Brazil and around the world. Each month a different artist creates an exclusive piece turned into an envelope full of color and care.",
+    "body2": "No screens: paper, color and care. A real letter crossing the city or the ocean."
   },
   "testimonials": {
     "title": "Members say",
+    "note": "Illustrative quotes.",
     "items": [
       { "quote": "Envelope day became my favorite day of the month.", "name": "Mariana, São Paulo" },
       { "quote": "I subscribed for my daughter and started collecting too.", "name": "Rafael, Lisbon" },
       { "quote": "Beautiful quality, and the guide invites you to slow down.", "name": "Camille, Lyon" }
     ]
   },
+  "pricing": {
+    "label": "Plans",
+    "title": "Choose how to receive",
+    "subtitle": "No hidden fees. Cancel anytime.",
+    "cta": "See plans",
+    "monthlyNote": "Great to try out",
+    "yearlyNote": "2 months off · shipping priority"
+  },
+  "social": {
+    "follow": "Follow:"
+  },
   "faq": {
     "title": "FAQ",
     "items": [
       { "q": "How does payment work?", "a": "Recurring billing via Mercado Pago or PayPal. You never type card details on our site." },
-      { "q": "Do you ship outside Brazil?", "a": "Yes, we ship worldwide. Timeframes vary by destination." },
-      { "q": "Can I cancel?", "a": "Yes, anytime. Monthly plans can be cancelled whenever you like." },
-      { "q": "Can I gift it?", "a": "Yes, just register the other person's address for delivery." },
-      { "q": "When does the first envelope arrive?", "a": "Orders confirmed by the 15th ship in the current month." }
+      { "q": "Pix, boleto or PayPal?", "a": "In Brazil: Pix, boleto and card via Mercado Pago. Abroad: card or balance via PayPal." },
+      { "q": "Do you ship outside Brazil?", "a": "Yes, worldwide with email tracking. Times vary by destination." },
+      { "q": "Can I cancel?", "a": "Yes, anytime. Monthly stays valid until the paid period ends." },
+      { "q": "Can I gift it?", "a": "Yes, register the other person's address and mark it as a gift." },
+      { "q": "Which languages?", "a": "4 languages: Portuguese, Spanish, English and French." }
     ]
   },
   "contact": {
+    "label": "Contact",
+    "headline": "Get real letters",
     "title": "Talk to us",
     "text": "Questions and partnerships: Instagram or email.",
+    "cta": "Email us",
     "instagram": "https://instagram.com/pintame.club",
     "instagramLabel": "@pintame.club on Instagram",
     "email": "pintame.club@gmail.com"

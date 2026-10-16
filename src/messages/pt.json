@@ -5,41 +5,43 @@
   },
   "nav": {
     "howItWorks": "Como funciona",
-    "whatsInside": "O que vem",
+    "whatsInside": "O que recebe",
     "gallery": "Galeria",
-    "faq": "Dúvidas",
+    "faq": "FAQ",
     "signIn": "Entrar",
     "subscribe": "Assinar"
   },
   "hero": {
-    "badge": "Clube de arte por assinatura",
+    "badge": "Clube de cartas · Brasil + mundo",
     "title": "Arte brasileira na sua porta, todo mês",
     "subtitle": "Um envelope surpresa com obra impressa exclusiva, guia criativo e extras de artistas brasileiros. Para colecionar, presentear e se inspirar.",
-    "ctaMonthly": "Assinar mensal",
-    "ctaYearly": "Assinar anual",
+    "ctaMonthly": "Assinar",
+    "ctaYearly": "Plano anual",
     "priceMonthly": "R$59,90/mês",
-    "priceYearly": "R$640/ano",
+    "priceYearly": "R$640",
     "note": "Cancele quando quiser • Enviamos para o Brasil e o mundo"
   },
   "stats": [
-    { "value": "12 mil+", "label": "envelopes enviados" },
-    { "value": "40+", "label": "artistas parceiros" },
-    { "value": "15", "label": "países alcançados" },
-    { "value": "4.9", "label": "nota média dos membros" }
+    { "value": "12", "label": "cartas por ano" },
+    { "value": "4", "label": "idiomas" },
+    { "value": "1", "label": "envelope todo mês" },
+    { "value": "0", "label": "fidelidade · cancele quando quiser" }
   ],
   "steps": {
     "title": "Como funciona",
-    "subtitle": "Do clique à sua caixa de correio em 4 passos.",
+    "subtitle": "Do clique à caixa de correio em 4 passos.",
     "items": [
-      { "n": "01", "title": "Escolha seu plano", "text": "Mensal por R$59,90 ou anual por R$640. Pague com Mercado Pago ou PayPal." },
-      { "n": "02", "title": "Receba o envelope", "text": "Todo mês enviamos um envelope surpresa para o seu endereço, no Brasil ou no exterior." },
-      { "n": "03", "title": "Crie com o guia", "text": "Cada envelope traz um guia criativo para você pintar, colar e experimentar." },
-      { "n": "04", "title": "Colecione e compartilhe", "text": "Guarde as obras, presenteie quem você ama e marque @pintame.club no Instagram." }
+      { "n": "01", "title": "Assine", "text": "Escolha o mensal (R$59,90) ou o anual (R$640). Leva 2 minutos." },
+      { "n": "02", "title": "Crie sua conta + endereço", "text": "Cadastre seu e-mail e o endereço de entrega, no Brasil ou no mundo." },
+      { "n": "03", "title": "Pagamento seguro", "text": "Pix, boleto ou cartão via Mercado Pago, ou PayPal no exterior. Nada de cartão aqui." },
+      { "n": "04", "title": "Receba todo mês", "text": "Um envelope surpresa todo mês, com rastreio por e-mail." }
     ]
   },
   "inside": {
-    "title": "O que vem no envelope",
-    "subtitle": "Todo mês, 4 itens selecionados com carinho.",
+    "label": "O que recebe",
+    "title": "Tudo o que chega no envelope",
+    "subtitle": "Quatro peças escolhidas com carinho, todo mês.",
+    "viewPlans": "Ver planos →",
     "items": [
       { "title": "Obra impressa exclusiva", "text": "Uma arte inédita de um artista brasileiro, em papel de alta qualidade." },
       { "title": "Guia criativo", "text": "Passo a passo e provocações para você criar a sua própria versão." },
@@ -48,35 +50,59 @@
     ]
   },
   "gallery": {
+    "label": "Galeria",
     "title": "Galeria",
     "subtitle": "Um gostinho das edições passadas.",
-    "note": "Fotos reais das edições em breve. Siga @pintame.club para ver novidades."
+    "note": "Fotos reais das edições em breve. Siga @pintame.club para ver novidades.",
+    "items": [
+      { "caption": "Carta impressa + guia criativo" },
+      { "caption": "Detalhe do papel e extras" },
+      { "caption": "Envelope pronto para envio" }
+    ]
   },
   "about": {
+    "label": "Manifesto",
     "title": "Sobre o Pinta-me",
-    "body": "O Pinta-me é um clube de assinatura que leva a arte brasileira para caixas de correio no Brasil e no mundo. A cada mês, um artista diferente cria uma obra exclusiva que vira um envelope cheio de cor, papel e afeto. Acreditamos que arte não é só para museu — é para a mesa da cozinha, a parede do quarto e o caderno de todo dia."
+    "body": "O Pinta-me é um clube de assinatura que leva a arte brasileira para caixas de correio no Brasil e no mundo. A cada mês, um artista diferente cria uma obra exclusiva que vira um envelope cheio de cor, papel e afeto. Acreditamos que arte não é só para museu — é para a mesa da cozinha, a parede do quarto e o caderno de todo dia.",
+    "body2": "Nada de tela: papel, cor e afeto. Uma carta de verdade atravessa a cidade ou o oceano para lembrar que alguém pensou em você."
   },
   "testimonials": {
     "title": "Quem recebe, conta",
+    "note": "Depoimentos ilustrativos — membros reais em breve.",
     "items": [
       { "quote": "O dia que o envelope chega virou meu dia favorito do mês.", "name": "Mariana, São Paulo" },
       { "quote": "Assinei para minha filha e acabei colecionando junto.", "name": "Rafael, Lisboa" },
       { "quote": "Qualidade linda e o guia criativo é um convite a desacelerar.", "name": "Camille, Lyon" }
     ]
   },
+  "pricing": {
+    "label": "Planos",
+    "title": "Escolha como receber",
+    "subtitle": "Sem taxa escondida. Cancele quando quiser.",
+    "cta": "Ver planos",
+    "monthlyNote": "Ideal para experimentar",
+    "yearlyNote": "2 meses de desconto · prioridade no envio"
+  },
+  "social": {
+    "follow": "Siga:"
+  },
   "faq": {
     "title": "Dúvidas frequentes",
     "items": [
-      { "q": "Como funciona o pagamento?", "a": "A cobrança é recorrente via Mercado Pago ou PayPal, no cartão ou saldo da conta. Você nunca digita dados do cartão no nosso site — todo o pagamento acontece no ambiente seguro do provedor." },
-      { "q": "Vocês enviam para fora do Brasil?", "a": "Sim! Enviamos para o Brasil e para o mundo todo. O prazo varia conforme o destino e o plano anual tem prioridade na fila de envio." },
-      { "q": "Posso cancelar quando quiser?", "a": "Pode. A assinatura mensal pode ser cancelada a qualquer momento e você recebe até o fim do período pago. A anual pode ser cancelada com reembolso proporcional — veja os Termos." },
-      { "q": "Posso dar de presente?", "a": "Sim! Na página de conta você cadastra o endereço de entrega — pode ser o de outra pessoa. É só avisar no campo de complemento que é presente." },
-      { "q": "Quando recebo o primeiro envelope?", "a": "Assinaturas confirmadas até o dia 15 entram no envio do mês corrente; depois disso, no mês seguinte. Você recebe o rastreio por e-mail." }
+      { "q": "Como funciona o pagamento?", "a": "Cobrança recorrente via Mercado Pago ou PayPal. Você nunca digita o cartão no nosso site — tudo acontece no ambiente seguro do provedor." },
+      { "q": "Quais meios posso usar: Pix, boleto ou PayPal?", "a": "No Brasil: Pix, boleto e cartão via Mercado Pago. No exterior: cartão ou saldo via PayPal." },
+      { "q": "Vocês enviam para fora do Brasil?", "a": "Sim, para o mundo todo, com rastreio por e-mail. O prazo varia por destino e o plano anual tem prioridade na fila de envio." },
+      { "q": "Posso cancelar quando quiser?", "a": "Pode. O mensal cancela a qualquer momento e vale até o fim do período pago. O anual tem reembolso proporcional — veja os Termos." },
+      { "q": "Posso dar de presente?", "a": "Sim! Cadastre o endereço da outra pessoa na conta e avise que é presente no complemento." },
+      { "q": "Em quais idiomas vem a carta?", "a": "O clube publica em 4 idiomas: português, espanhol, inglês e francês. O guia criativo acompanha o idioma da sua conta." }
     ]
   },
   "contact": {
+    "label": "Contato",
+    "headline": "Receba cartas de verdade",
     "title": "Fale com a gente",
     "text": "Dúvidas, parcerias e artistas: chama no Instagram ou no e-mail.",
+    "cta": "Falar por e-mail",
     "instagram": "https://instagram.com/pintame.club",
     "instagramLabel": "@pintame.club no Instagram",
     "email": "pintame.club@gmail.com"

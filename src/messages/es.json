@@ -5,41 +5,43 @@
   },
   "nav": {
     "howItWorks": "Cómo funciona",
-    "whatsInside": "Qué incluye",
+    "whatsInside": "Lo que recibes",
     "gallery": "Galería",
-    "faq": "Preguntas",
+    "faq": "FAQ",
     "signIn": "Entrar",
     "subscribe": "Suscribirse"
   },
   "hero": {
-    "badge": "Club de arte por suscripción",
+    "badge": "Club de cartas · Brasil + mundo",
     "title": "Arte brasileña en tu puerta, cada mes",
     "subtitle": "Un sobre sorpresa con obra impresa exclusiva, guía creativa y extras de artistas brasileños.",
-    "ctaMonthly": "Plan mensual",
+    "ctaMonthly": "Suscribirse",
     "ctaYearly": "Plan anual",
     "priceMonthly": "R$59,90/mês",
-    "priceYearly": "R$640/ano",
+    "priceYearly": "R$640",
     "note": "Cancela cuando quieras • Enviamos a todo el mundo"
   },
   "stats": [
-    { "value": "12 mil+", "label": "sobres enviados" },
-    { "value": "40+", "label": "artistas aliados" },
-    { "value": "15", "label": "países alcanzados" },
-    { "value": "4.9", "label": "nota media" }
+    { "value": "12", "label": "cartas por año" },
+    { "value": "4", "label": "idiomas" },
+    { "value": "1", "label": "sobre cada mes" },
+    { "value": "0", "label": "permanencia · cancela cuando quieras" }
   ],
   "steps": {
     "title": "Cómo funciona",
     "subtitle": "Del clic a tu buzón en 4 pasos.",
     "items": [
-      { "n": "01", "title": "Elige tu plan", "text": "Mensual R$59,90 o anual R$640. Paga con Mercado Pago o PayPal." },
-      { "n": "02", "title": "Recibe el sobre", "text": "Cada mes enviamos un sobre sorpresa a tu dirección." },
-      { "n": "03", "title": "Crea con la guía", "text": "Cada sobre trae una guía creativa para pintar y experimentar." },
-      { "n": "04", "title": "Colecciona y comparte", "text": "Guarda las obras y etiquétanos @pintame.club en Instagram." }
+      { "n": "01", "title": "Suscríbete", "text": "Mensual (R$59,90) o anual (R$640). Solo 2 minutos." },
+      { "n": "02", "title": "Crea tu cuenta + dirección", "text": "Registra tu correo y tu dirección, en Brasil o el mundo." },
+      { "n": "03", "title": "Pago seguro", "text": "Pix, boleto o tarjeta vía Mercado Pago, o PayPal fuera de Brasil." },
+      { "n": "04", "title": "Recibe cada mes", "text": "Un sobre sorpresa mensual, con seguimiento por correo." }
     ]
   },
   "inside": {
-    "title": "Qué trae el sobre",
-    "subtitle": "Cada mes, 4 piezas elegidas con cariño.",
+    "label": "Lo que recibes",
+    "title": "Todo lo que llega en el sobre",
+    "subtitle": "Cuatro piezas elegidas con cariño, cada mes.",
+    "viewPlans": "Ver planes →",
     "items": [
       { "title": "Obra impresa exclusiva", "text": "Un arte inédito de un artista brasileño, en papel de alta calidad." },
       { "title": "Guía creativa", "text": "Paso a paso para crear tu propia versión." },
@@ -48,35 +50,59 @@
     ]
   },
   "gallery": {
+    "label": "Galería",
     "title": "Galería",
     "subtitle": "Una muestra de ediciones pasadas.",
-    "note": "Fotos reales muy pronto. Sigue @pintame.club para novedades."
+    "note": "Fotos reales muy pronto. Sigue @pintame.club para novedades.",
+    "items": [
+      { "caption": "Carta impresa + guía creativa" },
+      { "caption": "Detalle del papel y extras" },
+      { "caption": "Sobre listo para enviar" }
+    ]
   },
   "about": {
+    "label": "Manifiesto",
     "title": "Sobre Pinta-me",
-    "body": "Pinta-me es un club que lleva el arte brasileño a buzones de todo el mundo. Cada mes, un artista crea una obra exclusiva que se convierte en un sobre lleno de color y cariño."
+    "body": "Pinta-me es un club que lleva el arte brasileño a buzones de todo el mundo. Cada mes, un artista crea una obra exclusiva que se convierte en un sobre lleno de color y cariño.",
+    "body2": "Nada de pantallas: papel, color y afecto. Una carta de verdad que cruza la ciudad o el océano."
   },
   "testimonials": {
     "title": "Quienes reciben, cuentan",
+    "note": "Testimonios ilustrativos.",
     "items": [
       { "quote": "El día que llega el sobre es mi favorito del mes.", "name": "Mariana, São Paulo" },
       { "quote": "Lo pedí para mi hija y terminé coleccionando yo también.", "name": "Rafael, Lisboa" },
       { "quote": "Calidad hermosa y la guía invita a desacelerar.", "name": "Camille, Lyon" }
     ]
   },
+  "pricing": {
+    "label": "Planes",
+    "title": "Elige cómo recibir",
+    "subtitle": "Sin cargos ocultos. Cancela cuando quieras.",
+    "cta": "Ver planes",
+    "monthlyNote": "Ideal para probar",
+    "yearlyNote": "2 meses de descuento · envío prioritario"
+  },
+  "social": {
+    "follow": "Sigue:"
+  },
   "faq": {
     "title": "Preguntas frecuentes",
     "items": [
       { "q": "¿Cómo es el pago?", "a": "Cobro recurrente vía Mercado Pago o PayPal. Nunca escribes tu tarjeta en nuestro sitio." },
-      { "q": "¿Envían fuera de Brasil?", "a": "Sí, enviamos a todo el mundo. Los plazos varían según el destino." },
-      { "q": "¿Puedo cancelar?", "a": "Sí, cuando quieras. El plan mensual se cancela en cualquier momento." },
-      { "q": "¿Puedo regalarlo?", "a": "Sí, registra la dirección de la otra persona como entrega." },
-      { "q": "¿Cuándo llega el primer sobre?", "a": "Pedidos confirmados hasta el día 15 entran en el envío del mes." }
+      { "q": "¿Pix, boleto o PayPal?", "a": "En Brasil: Pix, boleto y tarjeta vía Mercado Pago. Fuera: tarjeta o saldo vía PayPal." },
+      { "q": "¿Envían fuera de Brasil?", "a": "Sí, a todo el mundo, con seguimiento por correo. Los plazos varían por destino." },
+      { "q": "¿Puedo cancelar?", "a": "Sí, cuando quieras. El mensual vale hasta el fin del período pagado." },
+      { "q": "¿Puedo regalarlo?", "a": "Sí, registra la dirección de la otra persona e indica que es regalo." },
+      { "q": "¿En qué idiomas llega?", "a": "En 4 idiomas: portugués, español, inglés y francés." }
     ]
   },
   "contact": {
+    "label": "Contacto",
+    "headline": "Recibe cartas de verdad",
     "title": "Hablemos",
     "text": "Dudas y alianzas: Instagram o correo.",
+    "cta": "Escribir por correo",
     "instagram": "https://instagram.com/pintame.club",
     "instagramLabel": "@pintame.club en Instagram",
     "email": "pintame.club@gmail.com"

@@ -7,39 +7,41 @@
     "howItWorks": "Comment ça marche",
     "whatsInside": "Contenu",
     "gallery": "Galerie",
-    "faq": "Questions",
+    "faq": "FAQ",
     "signIn": "Se connecter",
     "subscribe": "S'abonner"
   },
   "hero": {
-    "badge": "Club d'art par abonnement",
+    "badge": "Club de lettres · Brésil + monde",
     "title": "L'art brésilien à votre porte, chaque mois",
     "subtitle": "Une enveloppe surprise avec une œuvre exclusive, un guide créatif et des extras d'artistes brésiliens.",
-    "ctaMonthly": "Formule mensuelle",
+    "ctaMonthly": "S'abonner",
     "ctaYearly": "Formule annuelle",
     "priceMonthly": "R$59,90/mês",
-    "priceYearly": "R$640/ano",
+    "priceYearly": "R$640",
     "note": "Résiliable à tout moment • Livraison dans le monde entier"
   },
   "stats": [
-    { "value": "12 mil+", "label": "enveloppes envoyées" },
-    { "value": "40+", "label": "artistes partenaires" },
-    { "value": "15", "label": "pays desservis" },
-    { "value": "4.9", "label": "note moyenne" }
+    { "value": "12", "label": "lettres par an" },
+    { "value": "4", "label": "langues" },
+    { "value": "1", "label": "enveloppe chaque mois" },
+    { "value": "0", "label": "engagement · résiliez quand vous voulez" }
   ],
   "steps": {
     "title": "Comment ça marche",
     "subtitle": "Du clic à la boîte aux lettres en 4 étapes.",
     "items": [
-      { "n": "01", "title": "Choisissez votre formule", "text": "Mensuelle R$59,90 ou annuelle R$640. Payez via Mercado Pago ou PayPal." },
-      { "n": "02", "title": "Recevez l'enveloppe", "text": "Chaque mois, une enveloppe surprise à votre adresse." },
-      { "n": "03", "title": "Créez avec le guide", "text": "Chaque enveloppe contient un guide créatif pour peindre et essayer." },
-      { "n": "04", "title": "Collectionnez et partagez", "text": "Gardez les œuvres et taguez @pintame.club sur Instagram." }
+      { "n": "01", "title": "Abonnez-vous", "text": "Mensuelle (R$59,90) ou annuelle (R$640). En 2 minutes." },
+      { "n": "02", "title": "Compte + adresse", "text": "Ajoutez votre e-mail et votre adresse, dans le monde entier." },
+      { "n": "03", "title": "Paiement sécurisé", "text": "Pix, boleto ou carte via Mercado Pago, ou PayPal hors Brésil." },
+      { "n": "04", "title": "Recevez chaque mois", "text": "Une enveloppe surprise mensuelle, suivie par e-mail." }
     ]
   },
   "inside": {
-    "title": "Contenu de l'enveloppe",
-    "subtitle": "Chaque mois, 4 pièces choisies avec soin.",
+    "label": "Contenu",
+    "title": "Tout ce que contient l'enveloppe",
+    "subtitle": "Quatre pièces choisies avec soin, chaque mois.",
+    "viewPlans": "Voir les formules →",
     "items": [
       { "title": "Œuvre exclusive", "text": "Une création inédite d'un artiste brésilien, sur papier premium." },
       { "title": "Guide créatif", "text": "Pas à pas pour créer votre propre version." },
@@ -48,35 +50,59 @@
     ]
   },
   "gallery": {
+    "label": "Galerie",
     "title": "Galerie",
     "subtitle": "Un aperçu des éditions passées.",
-    "note": "Vraies photos bientôt. Suivez @pintame.club pour les nouveautés."
+    "note": "Vraies photos bientôt. Suivez @pintame.club pour les nouveautés.",
+    "items": [
+      { "caption": "Œuvre + guide créatif" },
+      { "caption": "Détail du papier et extras" },
+      { "caption": "Enveloppe prête à partir" }
+    ]
   },
   "about": {
+    "label": "Manifeste",
     "title": "À propos de Pinta-me",
-    "body": "Pinta-me est un club qui apporte l'art brésilien dans les boîtes aux lettres du monde entier. Chaque mois, un artiste crée une œuvre exclusive transformée en enveloppe pleine de couleurs."
+    "body": "Pinta-me est un club qui apporte l'art brésilien dans les boîtes aux lettres du monde entier. Chaque mois, un artiste crée une œuvre exclusive transformée en enveloppe pleine de couleurs.",
+    "body2": "Pas d'écrans : du papier, des couleurs, de l'affection. Une vraie lettre qui traverse la ville ou l'océan."
   },
   "testimonials": {
     "title": "Ils racontent",
+    "note": "Témoignages illustratifs.",
     "items": [
       { "quote": "Le jour de l'enveloppe est devenu mon jour préféré du mois.", "name": "Mariana, São Paulo" },
       { "quote": "Abonnée pour ma fille, je collectionne avec elle.", "name": "Rafael, Lisbonne" },
       { "quote": "Belle qualité, et le guide invite à ralentir.", "name": "Camille, Lyon" }
     ]
   },
+  "pricing": {
+    "label": "Formules",
+    "title": "Choisissez votre rythme",
+    "subtitle": "Sans frais cachés. Résiliable à tout moment.",
+    "cta": "Voir les formules",
+    "monthlyNote": "Idéal pour essayer",
+    "yearlyNote": "2 mois offerts · envoi prioritaire"
+  },
+  "social": {
+    "follow": "Suivez :"
+  },
   "faq": {
     "title": "Questions fréquentes",
     "items": [
       { "q": "Comment marche le paiement ?", "a": "Prélèvement récurrent via Mercado Pago ou PayPal. Vous ne saisissez jamais votre carte sur notre site." },
-      { "q": "Livrez-vous hors du Brésil ?", "a": "Oui, dans le monde entier. Les délais varient selon la destination." },
-      { "q": "Puis-je résilier ?", "a": "Oui, à tout moment. La formule mensuelle est sans engagement." },
-      { "q": "Puis-je l'offrir ?", "a": "Oui, indiquez simplement l'adresse de l'autre personne." },
-      { "q": "Quand arrive la première enveloppe ?", "a": "Les commandes confirmées avant le 15 partent le mois en cours." }
+      { "q": "Pix, boleto ou PayPal ?", "a": "Au Brésil : Pix, boleto et carte via Mercado Pago. Hors Brésil : carte ou solde via PayPal." },
+      { "q": "Livrez-vous hors du Brésil ?", "a": "Oui, dans le monde entier, avec suivi par e-mail. Les délais varient." },
+      { "q": "Puis-je résilier ?", "a": "Oui, à tout moment. La mensuelle reste valable jusqu'à la fin payée." },
+      { "q": "Puis-je l'offrir ?", "a": "Oui, indiquez l'adresse de l'autre personne et marquez cadeau." },
+      { "q": "En quelles langues ?", "a": "En 4 langues : portugais, espagnol, anglais et français." }
     ]
   },
   "contact": {
+    "label": "Contact",
+    "headline": "Recevez de vraies lettres",
     "title": "Contactez-nous",
     "text": "Questions et partenariats : Instagram ou e-mail.",
+    "cta": "Écrire un e-mail",
     "instagram": "https://instagram.com/pintame.club",
     "instagramLabel": "@pintame.club sur Instagram",
     "email": "pintame.club@gmail.com"
