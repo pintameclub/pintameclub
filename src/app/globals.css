@@ -2,7 +2,8 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #18181b;
+  --foreground: #000000;
+  color-scheme: light;
 }
 
 @theme inline {
@@ -20,14 +21,14 @@ html {
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: #fff;
+  color: #000;
   font-family: var(--font-sans);
 }
 
 .font-display {
   font-family: var(--font-display);
-  letter-spacing: -0.03em;
+  letter-spacing: -0.035em;
 }
 
 section[id] {
@@ -40,4 +41,140 @@ details > summary {
 
 details > summary::-webkit-details-marker {
   display: none;
+}
+
+/* ---- pinta-me / portfolioone tokens ---- */
+
+.display-hero {
+  font-size: clamp(3rem, 7.2vw, 6rem);
+  line-height: 0.96;
+  letter-spacing: -0.045em;
+}
+
+.display-section {
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  line-height: 1.02;
+  letter-spacing: -0.035em;
+}
+
+.eyebrow {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
+
+.chip-translucent {
+  background: rgba(128, 128, 128, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.chip-translucent-light {
+  background: rgba(128, 128, 128, 0.16);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.btn-primary {
+  transition: transform 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px) scale(1.02);
+}
+
+.btn-ghost {
+  transition: transform 0.25s ease, border-color 0.25s ease, background-color 0.25s ease;
+}
+
+.btn-ghost:hover {
+  transform: translateY(-1px) scale(1.02);
+}
+
+/* scroll reveal (CSS-only + tiny IntersectionObserver hook in page.tsx) */
+.reveal {
+  opacity: 0;
+  transform: translateY(26px);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* card image hover zoom */
+.zoom-frame {
+  overflow: hidden;
+}
+
+.zoom-inner {
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.group:hover .zoom-inner {
+  transform: scale(1.035);
+}
+
+/* numbered list hover shift */
+.step-row {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.step-row:hover {
+  transform: translateX(6px);
+}
+
+.step-row:hover .step-num {
+  color: #000;
+}
+
+/* FAQ accordion transition */
+.faq-answer {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.32s ease;
+}
+
+details[open] .faq-answer {
+  grid-template-rows: 1fr;
+}
+
+.faq-answer > div {
+  overflow: hidden;
+}
+
+.faq-plus {
+  transition: transform 0.3s ease;
+}
+
+details[open] .faq-plus {
+  transform: rotate(45deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .zoom-inner,
+  .btn-primary,
+  .btn-ghost,
+  .step-row,
+  .faq-answer,
+  .faq-plus {
+    transition: none;
+  }
 }

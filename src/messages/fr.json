@@ -19,7 +19,8 @@
     "ctaYearly": "Formule annuelle",
     "priceMonthly": "R$59,90/mês",
     "priceYearly": "R$640",
-    "note": "Résiliable à tout moment • Livraison dans le monde entier"
+    "note": "Résiliable à tout moment • Livraison dans le monde entier",
+    "imagePlaceholder": "votre image ici — vraies photos bientôt"
   },
   "stats": [
     { "value": "12", "label": "lettres par an" },
@@ -42,6 +43,7 @@
     "title": "Tout ce que contient l'enveloppe",
     "subtitle": "Quatre pièces choisies avec soin, chaque mois.",
     "viewPlans": "Voir les formules →",
+    "imagePlaceholder": "photo de l'enveloppe — à envoyer",
     "items": [
       { "title": "Œuvre exclusive", "text": "Une création inédite d'un artiste brésilien, sur papier premium." },
       { "title": "Guide créatif", "text": "Pas à pas pour créer votre propre version." },
@@ -54,6 +56,7 @@
     "title": "Galerie",
     "subtitle": "Un aperçu des éditions passées.",
     "note": "Vraies photos bientôt. Suivez @pintame.club pour les nouveautés.",
+    "imagePlaceholder": "image ici — à envoyer",
     "items": [
       { "caption": "Œuvre + guide créatif" },
       { "caption": "Détail du papier et extras" },

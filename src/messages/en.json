@@ -19,7 +19,8 @@
     "ctaYearly": "Yearly plan",
     "priceMonthly": "R$59,90/mês",
     "priceYearly": "R$640",
-    "note": "Cancel anytime • We ship worldwide"
+    "note": "Cancel anytime • We ship worldwide",
+    "imagePlaceholder": "your image here — real photos soon"
   },
   "stats": [
     { "value": "12", "label": "letters a year" },
@@ -42,6 +43,7 @@
     "title": "Everything inside the envelope",
     "subtitle": "Four hand-picked pieces, every month.",
     "viewPlans": "See plans →",
+    "imagePlaceholder": "envelope photo — send later",
     "items": [
       { "title": "Exclusive art print", "text": "Unreleased artwork by a Brazilian artist, on premium paper." },
       { "title": "Creative guide", "text": "Step-by-step prompts to make your own version." },
@@ -54,6 +56,7 @@
     "title": "Gallery",
     "subtitle": "A taste of past editions.",
     "note": "Real photos coming soon. Follow @pintame.club for updates.",
+    "imagePlaceholder": "image here — send later",
     "items": [
       { "caption": "Print + creative guide" },
       { "caption": "Paper detail and extras" },

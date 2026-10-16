@@ -19,7 +19,8 @@
     "ctaYearly": "Plano anual",
     "priceMonthly": "R$59,90/mês",
     "priceYearly": "R$640",
-    "note": "Cancele quando quiser • Enviamos para o Brasil e o mundo"
+    "note": "Cancele quando quiser • Enviamos para o Brasil e o mundo",
+    "imagePlaceholder": "sua imagem aqui — fotos reais em breve"
   },
   "stats": [
     { "value": "12", "label": "cartas por ano" },
@@ -42,6 +43,7 @@
     "title": "Tudo o que chega no envelope",
     "subtitle": "Quatro peças escolhidas com carinho, todo mês.",
     "viewPlans": "Ver planos →",
+    "imagePlaceholder": "imagem do envelope — enviar depois",
     "items": [
       { "title": "Obra impressa exclusiva", "text": "Uma arte inédita de um artista brasileiro, em papel de alta qualidade." },
       { "title": "Guia criativo", "text": "Passo a passo e provocações para você criar a sua própria versão." },
@@ -54,6 +56,7 @@
     "title": "Galeria",
     "subtitle": "Um gostinho das edições passadas.",
     "note": "Fotos reais das edições em breve. Siga @pintame.club para ver novidades.",
+    "imagePlaceholder": "imagem aqui — enviar depois",
     "items": [
       { "caption": "Carta impressa + guia criativo" },
       { "caption": "Detalhe do papel e extras" },
